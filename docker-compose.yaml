@@ -1,0 +1,14 @@
+services:
+  go-frame-demo:
+    image: my.image.pub/my-app/go-frame-demo:v0.0.1
+    container_name: go-frame-demo
+    restart: always
+    ports:
+      - "8080:8000"
+    # environment:
+      # Add any environment variables your application requires
+      # - ENV_VAR_NAME=value
+    # volumes:
+      # Mount volumes if your application needs access to host files or directories
+      # - ./config:/app/config
+    command: ["/app/main"]

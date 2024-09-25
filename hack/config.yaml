@@ -9,9 +9,9 @@ gfcli:
   build:
     name:     "goframe-demo"
     arch:     "arm64"
-    system:   "darwin"
+    system:   "linux"
     mod:      "none"
     packSrc:  "resource,manifest"
     version:  "v1.0.0"
-    output:   "./go-frame-demo"
+    output:   "./temp/linux_arm64/main"
     extra:    ""      
