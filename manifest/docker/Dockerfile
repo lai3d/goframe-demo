@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.15
 
 ###############################################################################
 #                                INSTALLATION
@@ -6,7 +6,7 @@ FROM alpine:3.8
 
 ENV WORKDIR                 /app
 ADD resource                $WORKDIR/
-ADD ./temp/linux_arm64/main $WORKDIR/main
+ADD ./temp/multi-arch/main $WORKDIR/main
 RUN chmod +x $WORKDIR/main
 
 ###############################################################################

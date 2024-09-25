@@ -1,6 +1,6 @@
 services:
   go-frame-demo:
-    image: my.image.pub/my-app/go-frame-demo:v0.0.1
+    image: my.image.pub/my-app/go-frame-demo:v0.0.2
     container_name: go-frame-demo
     restart: always
     ports:
