@@ -4,7 +4,7 @@ services:
     container_name: go-frame-demo
     restart: always
     ports:
-      - "8080:8000"
+      - "8000:8000"
     # environment:
       # Add any environment variables your application requires
       # - ENV_VAR_NAME=value
